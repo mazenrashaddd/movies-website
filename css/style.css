@@ -17,7 +17,7 @@ body {
 }
 
 #popular-movies-carousel .owl-item img {
-  height: 180px; /* Set the desired height */
-  object-fit: cover; /* Maintain aspect ratio */
-  width: 100%; /* Stretch image to fill the width of the container */
+  height: 180px;
+  object-fit: cover;
+  width: 100%;
 }
