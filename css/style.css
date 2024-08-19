@@ -1,9 +1,23 @@
-.c-item{
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.c-item {
   height: 590px;
 }
 
-c-img{
+.c-img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+#popular-movies-carousel {
+  padding: 0px 0;
+}
+
+#popular-movies-carousel .owl-item img {
+  height: 180px; /* Set the desired height */
+  object-fit: cover; /* Maintain aspect ratio */
+  width: 100%; /* Stretch image to fill the width of the container */
 }
