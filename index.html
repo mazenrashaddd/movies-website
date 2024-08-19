@@ -18,8 +18,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
   <!-- Owl Carousel CSS -->
-  <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
-  <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+  <link rel="stylesheet" href="owlcarousel/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="owlcarousel/css/owl.theme.default.css">
 
 </head>
 <body>
@@ -73,7 +73,15 @@
   </div>
 
   <!-- Popular Movies Owl Carousel Beginning -->
-   
+  <div class="owl-carousel">
+    <div> Your Content </div>
+    <div> Your Content </div>
+    <div> Your Content </div>
+    <div> Your Content </div>
+    <div> Your Content </div>
+    <div> Your Content </div>
+    <div> Your Content </div>
+  </div>
   <!-- Popular Movies Owl Carousel End -->
 
   <!-- Popular Movies Section End -->
@@ -81,13 +89,22 @@
 
 
   <!-- Owl Carousel Javascript-->
-  <script src="jquery.min.js"></script>
-  <script src="owlcarousel/owl.carousel.min.js"></script>
+  <script src="owlcarousel/js/jquery-3.7.1.min.js"></script>
+  <script src="owlcarousel/js/owl.carousel.min.js"></script>
+
+  <script>
+    $(document).ready(function(){
+        $(".owl-carousel").owlCarousel();
+    });
+  </script>
 
   <!-- Bootstrap Javascript -->
   <script src="js/bootstrap.bundle.min.js"></script>
 
   <!-- Font Awesome Javascript -->
    <script src="js/all.min.js"></script>
+
+  <!-- Custom Javascript -->
+   <script src="js/script.js"></script>
 </body>
 </html>
