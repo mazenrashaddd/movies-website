@@ -3,7 +3,7 @@ body {
 }
 
 .c-item {
-  height: 590px;
+  height: 570px;
 }
 
 .c-img {
@@ -20,4 +20,11 @@ body {
   height: 180px;
   object-fit: cover;
   width: 100%;
+}
+
+.c-movie-card-text{
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  
 }
