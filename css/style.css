@@ -17,7 +17,76 @@ body {
 }
 
 #popular-movies-carousel .owl-item img {
-  height: 180px;
+  height: 200px;
   object-fit: cover;
   width: 100%;
+  border-radius: 2%;
+  filter: brightness(0.8);
+}
+
+.c-movie-card{
+  position: relative;
+  margin-bottom: 5%;
+  column-gap: 10%;
+}
+
+.c-movie-img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.7);
+  border-radius: 3%;
+}
+
+.c-movie-title{
+  position: absolute;
+  color: white;
+  font-size: 100%;
+  font-weight: 700;
+  bottom: 22%;
+  left: 10%;
+  margin-bottom: 2%;
+}
+
+.c-movie-date{
+  position: absolute;
+  color: white;
+  font-size: 100%;
+  bottom: 16%;
+  left: 10%;
+  margin-bottom: 2%;
+}
+
+.c-movie-rating{
+  position: absolute;
+  color: white;
+  font-size: 100%;
+  bottom: 10%;
+  left: 10%;
+  margin-bottom: 2%;
+}
+
+.c-movie-language-1{
+  position: absolute;
+  color: white;
+  background-color: #3f3f3f79;
+  font-size: 85%;
+  bottom: 3.5%;
+  left: 9%;
+  border-radius: 20%;
+  padding: 0 2%;
+  margin-bottom: 2%;
+}
+
+.c-movie-language-2{
+  position: absolute;
+  color: white;
+  background-color: #3f3f3fd2;
+  font-size: 85%;
+  bottom: 3.5%;
+  left: 20%;
+  border-radius: 20%;
+  padding: 0 5px;
+  margin-left: 1%;
+  margin-bottom: 2%;
 }
