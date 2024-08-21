@@ -2,6 +2,10 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+a{
+  text-decoration: none !important;
+}
+
 .c-item {
   height: 570px;
 }
@@ -89,4 +93,12 @@ body {
   padding: 0 5px;
   margin-left: 1%;
   margin-bottom: 2%;
+}
+
+.c-footer{
+  background-color: rgb(32, 32, 32);
+}
+
+.c-text-item{
+  color: rgb(185, 185, 185);
 }
